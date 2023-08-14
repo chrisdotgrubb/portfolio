@@ -14,16 +14,17 @@
 	<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
 			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-		<style>
-	        * {
-				text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-				font-family: "Roboto Light", sans-serif;
-				color: white
-	        }
-			.btn {
-				background-color: rgba(0,0,0,0.8);
-			}
-		</style>
+	<style>
+        * {
+            /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+            font-family: "Roboto Light", sans-serif;
+            color: black
+        }
+
+        .btn {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+	</style>
 </head>
 
 <body style="background-image: linear-gradient(90deg, #208dcb 0%, #1253a3 60%, #0d3b93 80%)">
@@ -42,7 +43,7 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Projects</a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#">Battleship</a></li>
+						<li><a class="dropdown-item" href="#" target="_blank">Battleship</a></li>
 					</ul>
 				</li>
 
@@ -62,11 +63,14 @@
 <main class="container mb-3" id="main">
 
 	<div class="px-4 pt-5 my-5 text-center">
-		<h1 class="display-4 fw-bold">Centered screenshot</h1>
-		<div class="col-lg-6 mx-auto">
-			<p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-				most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-				extensive prebuilt components, and powerful JavaScript plugins.</p>
+		<h1 class="display-4 fw-bold">Chris Grubb | Software Engineer</h1>
+		<div class="col-lg-8 mx-auto">
+			<p class="lead mb-4">I am an observant detail-oriented problem-solver, always looking to learn something
+				new.
+				Owning a small business helped me learn to be self-sufficient and solve problems on my own, while taking
+				input on customer needs. I enjoy troubleshooting technical problems and finding solutions, no
+				matter how difficult.
+			</p>
 			<div class="my-4">
 				<div class="d-inline-flex">
 					<a href="https://www.github.com/chrisdotgrubb" target="_blank">
@@ -78,7 +82,7 @@
 					</a>
 				</div>
 				<div class="d-inline-flex">
-					<a href="https://www.linkedin.com/in/chrisdotgrubb" target="_blank" style="color: whitesmoke">
+					<a href="https://www.linkedin.com/in/chrisdotgrubb" target="_blank">
 						<svg
 								xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
 								class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -94,23 +98,63 @@
 		<div class="container px-4 py-5">
 			<h2 class="pb-2 border-bottom fw-bold">Car Service Records</h2>
 
-			<div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5" style="background-color: rgba(0,0,0,.2); background-clip: content-box;">
+			<div
+					class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+					style="background-color: rgba(0,0,0,.2); background-clip: content-box;">
 				<div class="col d-flex flex-column align-items-start gap-2 my-5">
 					<h2>Keep track of customers and their cars.</h2>
-					<a
-							href="https://calcifer-project2.fly.dev/" class="btn btn-primary btn-lg">Visit</a>
+					<a href="https://calcifer-project2.fly.dev/" class="btn btn-primary btn-lg" target="_blank">
+						Try it out
+					</a>
 				</div>
 
 				<div class="col">
 
 					<div class="col d-flex flex-column gap-2">
-						<a href="https://github.com/chrisdotgrubb/calcifer-project2" class="text-decoration-none text-white">
-							<h4 class="fw-semibold mb-0">
-								View on GitHub
-							</h4>
+						<p>Customer service tracking app made using Node and Express, with MongoDB for storing data
+							about customers, cars, and services performed.</p>
+						<a
+								href="https://github.com/chrisdotgrubb/calcifer-project2"
+								class="text-decoration-none text-white" target="_blank">
+							<h6 class="mb-5">
+								View source code
+							</h6>
 						</a>
-						<p>Customer service tracking app made using Node and Express, with
-							MongoDB for storing data.</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container px-4 py-5">
+			<h2 class="pb-2 border-bottom fw-bold">Tune Collector</h2>
+
+			<div
+					class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+					style="background-color: rgba(0,0,0,.2); background-clip: content-box;">
+				<div class="col d-flex flex-column align-items-start gap-2 my-5">
+					<h2>Store your fiddle tunes</h2>
+					<a href="https://tune-collector.fly.dev/" class="btn btn-primary btn-lg" target="_blank">
+						Start storing your tunes
+					</a>
+				</div>
+
+				<div class="col">
+
+					<div class="col d-flex flex-column gap-2">
+						<p>
+							Keep track of your known fiddle tunes and explore the tunes that your friends are playing.
+							Use this app to store the tunes that you want to play, so you don't forget to play them
+							anymore. Filter your tunes by the key you are playing, so you have a quick reference for
+							your next song.
+						</p>
+						<a
+								href="https://github.com/bcarpenter7/tune-collector-final"
+								class="text-decoration-none text-white" target="_blank">
+							<h6 class="mb-5">
+								View source code
+							</h6>
+						</a>
 					</div>
 
 				</div>
@@ -120,51 +164,30 @@
 		<div class="container px-4 py-5">
 			<h2 class="pb-2 border-bottom fw-bold">Battleship</h2>
 
-			<div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5" style="background-color: rgba(0,0,0,.2); background-clip: content-box;">
+			<div
+					class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+					style="background-color: rgba(0,0,0,.2); background-clip: content-box;">
 				<div class="col d-flex flex-column align-items-start gap-2 my-5">
 					<h2>Clone of Battleship the game</h2>
 					<a
-							href="https://chrisdotgrubb.github.io/calcifer-project1/" class="btn btn-primary btn-lg">Visit</a>
+							href="https://chrisdotgrubb.github.io/calcifer-project1/" class="btn btn-primary btn-lg"
+							target="_blank">
+						Play me
+					</a>
 				</div>
 
 				<div class="col">
 
 					<div class="col d-flex flex-column gap-2">
-						<a href="https://github.com/chrisdotgrubb/calcifer-project1" class="text-decoration-none text-white">
-							<h4 class="fw-semibold mb-0">
-								View on GitHub
-							</h4>
-						</a>
 						<p>Fun game to showcase DOM manipulation and game logic in a three
-							file
-							project. Made with HTML, CSS, and Javascript.</p>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<div class="container px-4 py-5">
-			<h2 class="pb-2 border-bottom fw-bold">Battleship</h2>
-
-			<div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5" style="background-color: rgba(0,0,0,.2); background-clip: content-box;">
-				<div class="col d-flex flex-column align-items-start gap-2 my-5">
-					<h2>Clone of Battleship the game</h2>
-					<a
-							href="https://chrisdotgrubb.github.io/calcifer-project1/" class="btn btn-primary btn-lg">Visit</a>
-				</div>
-
-				<div class="col">
-
-					<div class="col d-flex flex-column gap-2">
-						<a href="https://github.com/chrisdotgrubb/calcifer-project1" class="text-decoration-none text-white">
-							<h4 class="fw-semibold mb-0">
-								View on GitHub
-							</h4>
+							file project. Made with HTML, CSS, and Javascript.</p>
+						<a
+								href="https://github.com/chrisdotgrubb/calcifer-project1"
+								class="text-decoration-none text-white" target="_blank">
+							<h6 class="mb-5">
+								View source code
+							</h6>
 						</a>
-						<p>Fun game to showcase DOM manipulation and game logic in a three
-							file
-							project. Made with HTML, CSS, and Javascript.</p>
 					</div>
 
 				</div>
