@@ -1,0 +1,27 @@
+* {
+    text-shadow: 2px 2px 3px rgb(132, 176, 130, 0.2);
+    font-family: "Roboto Light", sans-serif;
+    color: rgb(132, 176, 130)
+}
+
+body {
+    background-color: rgb(21, 35, 59);
+    scroll-behavior: smooth;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.socials {
+    color: #171515
+}
+
+.projectCard {
+    background-color: rgba(0, 0, 0, .2);
+    background-clip: content-box;
+}
+
+.noShadow {
+    text-shadow: none;
+}
