@@ -1,0 +1,74 @@
+* {
+    text-shadow: 2px 2px 3px rgb(132, 176, 130, 0.2);
+    font-family: "Roboto Light", sans-serif;
+    color: rgb(132, 176, 130);
+}
+
+body {
+    background-color: rgb(21, 35, 59);
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgb(21, 35, 59);
+}
+
+.abc {
+
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.socials {
+    color: #171515
+}
+
+.projectCard {
+    background-color: rgba(0, 0, 0, .2);
+    background-clip: content-box;
+}
+
+.noShadow {
+    text-shadow: none;
+}
+
+.myCardTitle {
+    color: rgb(132, 176, 130);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.myCard {
+    background-color: rgb(21, 35, 59);
+    width: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.myCard:hover {
+    background-color: rgba(136, 90, 90, .1);
+}
+
+.myScreenshot {
+    object-fit: cover;
+}
+
+.myButton {
+    color: rgb(12, 187, 0);
+    background-color: rgb(20, 30, 50);
+}
+
+.myButton:hover {
+    background-color: rgb(40, 50, 80);
+}
+
+.myIcon {
+    width: 46px;
+    height: 46px;
+}
+
+.transformSVG {
+    filter: invert(60%) sepia(30%) saturate(9000%) hue-rotate(180deg);
+}
