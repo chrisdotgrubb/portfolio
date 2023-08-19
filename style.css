@@ -9,6 +9,14 @@ body {
     scroll-behavior: smooth;
 }
 
+nav {
+    background-color: rgb(21, 35, 59);
+}
+
+.abc {
+
+}
+
 .btn {
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -41,6 +49,10 @@ body {
 
 .myCard:hover {
     background-color: rgba(136, 90, 90, .1);
+}
+
+.myScreenshot {
+    object-fit: cover;
 }
 
 .myButton {
